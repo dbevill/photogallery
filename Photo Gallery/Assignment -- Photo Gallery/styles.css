@@ -19,13 +19,18 @@ body{
     background-color: #ffffff;
     margin: 0 auto;
     max-width: 800px;
-    
 }
 .container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     /*grid-template-rows: repeat(5, 1fr);*/
     font-family: Arial, Helvetica, sans-serif;
+}
+@media screen (min-width: 1300px) {
+    justify-content: right;
+}
+@media screen (min-width: 880px) {
+    justify-content: center;
 }
 .gallery{
     display: grid;
@@ -93,9 +98,30 @@ blockquote{
 .form{
     background-color: black;
     color: #ffffff;
-    display: block;
+    padding: 1rem;
+    position: relative;
+    justify-items: center;
 }
 input{
-    width: 100%;
-    padding: 10px;
+    width: 75%;
+    padding: 10px 20px;
+    margin-top: 30px;
+    
+}
+.form label{
+   text-align: center;
+}
+.form h2{
+    text-align: center;
+}
+#my-submit{
+    background-color: #007d7b;
+    color: #ffffff;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.real-footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
 }
