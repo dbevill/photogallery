@@ -1,9 +1,9 @@
 *{
     box-sizing: border-box;
 }
-/**,*:before, *:after {
+**,*:before, *:after {
     box-sizing: inherit;
-}*/
+}
 /*color palette and styles
 {
 --light-blue: #007d7b;
@@ -32,7 +32,7 @@ body{
 @media screen (min-width: 880px) {
     justify-content: center;
 }
-.gallery{
+#gallery{
     display: grid;
     grid-template-rows: 4;
 }
